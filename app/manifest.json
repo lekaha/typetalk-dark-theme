@@ -8,25 +8,26 @@
     "128": "images/icon-128.png"
   },
   "default_locale": "en",
-  "background": {
+  /*"background": {
     "scripts": [
       "scripts/chromereload.js",
       "scripts/background.js"
     ]
-  },
+  },*/
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "https://typetalk.in/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://typetalk.in/*"
       ],
-      "js": [
+      /*"js": [
         "scripts/contentscript.js"
+      ],*/
+      "css": [
+        "css/typetalk-dark-theme.css"
       ],
       "run_at": "document_end",
       "all_frames": false

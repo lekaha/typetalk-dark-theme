@@ -1,0 +1,87 @@
+body {
+  background: #333333 !important;
+}
+
+.message__post {
+  background: #333333 !important;
+  color: #B3ABA9 !important;
+  border-color: #333333 !important;
+}
+
+.message__post:hover {
+  border-color: #F3AB9A !important;
+}
+
+.message__post .message__name {
+  color: #1B856A !important;
+}
+
+.message__post .message__time a {
+  color: #778899 !important;
+}
+
+.message__post .message__option .message__icon--like {
+  background: #333333;
+}
+
+.message__post .message__option .message__icon--more {
+  background: #333333;
+}
+
+.line {
+  background: #1B856A !important;
+}
+
+.message__post .message__img {
+  border-color: #1B856A !important;
+}
+
+.message__post .message__wrap {
+  border-color: #1B856A !important;
+}
+
+.message__post .message__option .message__like-users .message__like-users-inner {
+  background: #333333 !important;
+}
+
+.message__post .message__option .message__action-more .tt-dropdown-menu {
+  background: #333333 !important;
+}
+
+.message__post .message__option .message__action-more .tt-dropdown-menu li a {
+  color: #B3ABA9 !important;
+}
+
+.message__post .message__option .message__action-more .tt-dropdown-menu li a:hover {
+  color: #555555 !important;
+}
+
+.message__action {
+  background: #202020 !important;
+}
+
+.message__container {
+  background: #333333 !important;
+  color: #B3ABA9 !important;
+}
+
+.globalbar {
+  background: #202020 !important;
+}
+
+.sidebar-content {
+  background: #202020 !important;
+}
+
+.sidebar-content .topic-content__list-item.topic-content__list-item--current .topic-content__list-wrap {
+  background: #333333 !important;
+}
+
+
+.sidebar {
+  background: #333333 !important;
+}
+
+.sidebar .sidebar__item.sidebar__item--current {
+  background: #202020 !important;
+}
