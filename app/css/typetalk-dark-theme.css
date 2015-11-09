@@ -125,3 +125,27 @@ body {
 .sidebar .sidebar__item.sidebar__item--current {
   background: #202020 !important;
 }
+
+.notification-content .notification-content__list .notification-content__list-item {
+  background: #202020;
+}
+
+.notification-content .notification-content__list .notification-content__list-item .notification-content__txt {
+  color: #B3ABA9;
+}
+
+.announce-content .announce-content__list .announce-content__list-item {
+  background: #202020;
+}
+
+.announce-content .announce-content__list .announce-content__list-item .announce-content__txt {
+  color: #B3ABA9;
+}
+
+.profile-content {
+  color: #B3ABA9;
+}
+
+.profile-content .profile-content__list .profile-content__list-item .profile-content__list-wrap {
+  color: #B3ABA9;
+}
