@@ -60,6 +60,47 @@ body {
   background: #202020 !important;
 }
 
+.message__action .message__action-menu {
+  background: #333333;
+  color: #B3ABA9;
+}
+
+.message__action-menu.message__action-menu--face {
+  background: #202020;
+}
+
+.message__action .message__action-menu .message__action-menu-wrap {
+  background: #333333;
+  color: #B3ABA9;
+}
+
+.message__action .message__action-menu .message__action-menu-wrap:hover {
+  background: #E7E0DF;
+  color: #555555;
+}
+
+.message__action-menu .message__action-menu--emoji-list {
+  background: #E7E0DF;
+}
+
+.message__action-menu .message__action-menu--emoji-tab {
+  background: #202020;
+}
+
+.message__action-menu .message__action-menu--emoji-tab .message__action-menu--emoji-tab-list {
+  background: #202020;
+  color: #B3ABA9;
+}
+
+.message__action-menu .message__action-menu--emoji-tab .message__action-menu--emoji-tab-list.message__action-menu--emoji-tab-list--current {
+  background: #E7E0DF;
+  color: #555555;
+}
+
+.message__action-menu .message__action-menu--emoji-tab-list--current:first-child:before, .message__action-menu .message__action-menu--emoji-tab-list:hover:first-child:before {
+  background: #E7E0DF;
+}
+
 .message__container {
   background: #333333 !important;
   color: #B3ABA9 !important;
@@ -76,7 +117,6 @@ body {
 .sidebar-content .topic-content__list-item.topic-content__list-item--current .topic-content__list-wrap {
   background: #333333 !important;
 }
-
 
 .sidebar {
   background: #333333 !important;
