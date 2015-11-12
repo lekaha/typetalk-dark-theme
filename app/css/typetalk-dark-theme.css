@@ -168,3 +168,7 @@ body {
 .profile-content .profile-content__list .profile-content__list-item .profile-content__list-wrap {
   color: #B3ABA9;
 }
+
+.profile-content .profile-content__list .profile-content__list-item .profile-content__list-wrap:hover {
+  color: #333333;
+}
