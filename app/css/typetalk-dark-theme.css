@@ -114,9 +114,27 @@ body {
   background: #202020 !important;
 }
 
-.sidebar-content .topic-content__list-item.topic-content__list-item--current .topic-content__list-wrap {
-  background: #333333 !important;
+.sidebar-content .topic-content__list-item .topic-content__list-wrap {
+  color: #B3ABA9;
 }
+
+.sidebar-content .topic-content__list-item .topic-content__list-wrap:hover {
+  color: #333333;
+}
+
+.sidebar-content .topic-content__list-item.topic-content__list-item--current .topic-content__list-wrap {
+  color: #FC6347;
+  background: #333333;
+}
+
+.sidebar-content .topic-content .topic-content__tab .topic-content__tab-wrap--filter {
+  color: #B3ABA9;
+}
+
+.sidebar-content .topic-content .topic-content__tab .topic-content__tab-wrap--filter:hover {
+  color: #333333;
+}
+
 
 .sidebar {
   background: #333333 !important;
