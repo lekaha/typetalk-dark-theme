@@ -124,6 +124,7 @@ body {
 
 .sidebar .sidebar__item.sidebar__item--current {
   background: #202020 !important;
+  border-right-width: 0px;
 }
 
 .notification-content .notification-content__list .notification-content__list-item {
