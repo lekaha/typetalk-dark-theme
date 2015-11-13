@@ -28,14 +28,6 @@ body {
   background: #333333;
 }
 
-.line {
-  background: #1B856A !important;
-}
-
-.message__post .message__img {
-  border-color: #1B856A !important;
-}
-
 .message__post .message__wrap {
   border-color: #1B856A !important;
 }
@@ -54,6 +46,10 @@ body {
 
 .message__post .message__option .message__action-more .tt-dropdown-menu li a:hover {
   color: #555555 !important;
+}
+
+.message__post .message__post--reply-wrap {
+  background: #333333;
 }
 
 .message__action {
