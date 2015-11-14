@@ -104,6 +104,29 @@ body {
 
 .globalbar {
   background: #202020 !important;
+  color: #B3ABA9;
+}
+
+.globalbar .globalbar__link--users .globalbar__users {
+  background: #202020;
+}
+
+.globalbar .globalbar__link--talks .globalbar__talks .globalbar__input--talks {
+  background: #333333;
+  color: #B3ABA9 !important;
+}
+
+.globalbar .globalbar__link--talks .globalbar__talks .globalbar__talks-list {
+  background: #202020;
+}
+
+.globalbar .globalbar__link--talks .globalbar__talks .globalbar__talks-list li a {
+  color: #B3ABA9;
+}
+
+.globalbar .globalbar__link--talks .globalbar__talks .globalbar__talks-list li a:hover {
+  background: #ECE5E4;
+  color: #202020;
 }
 
 .sidebar-content {
