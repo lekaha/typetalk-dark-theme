@@ -13,7 +13,7 @@ body {
 }
 
 .message__post .message__name {
-  color: #1B856A !important;
+  color: #B3ABA9;
 }
 
 .message__post .message__time a {
@@ -29,7 +29,7 @@ body {
 }
 
 .message__post .message__wrap {
-  border-color: #1B856A !important;
+  border-color: #B3ABA9;
 }
 
 .message__post .message__option .message__like-users .message__like-users-inner {
@@ -153,7 +153,6 @@ body {
 .sidebar-content .topic-content .topic-content__tab .topic-content__tab-wrap--filter:hover {
   color: #333333;
 }
-
 
 .sidebar {
   background: #333333 !important;
