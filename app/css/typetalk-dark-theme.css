@@ -129,6 +129,14 @@ body {
   color: #202020;
 }
 
+.globalbar .globalbar__ttl .globalbar__topic-edit {
+  background: #202020;
+}
+.globalbar .globalbar__ttl .globalbar__topic-edit .globalbar__input--topic {
+  background: #333333;
+  color: #B3ABA9;
+}
+
 .sidebar-content {
   background: #202020 !important;
 }
