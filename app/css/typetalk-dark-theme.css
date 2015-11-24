@@ -132,9 +132,14 @@ body {
 .globalbar .globalbar__ttl .globalbar__topic-edit {
   background: #202020;
 }
+
 .globalbar .globalbar__ttl .globalbar__topic-edit .globalbar__input--topic {
   background: #333333;
   color: #B3ABA9;
+}
+
+.globalbar .globalbar__topic-close {
+  background: #202020;
 }
 
 .sidebar-content {
@@ -197,4 +202,33 @@ body {
 
 .profile-content .profile-content__list .profile-content__list-item .profile-content__list-wrap:hover {
   color: #333333;
+}
+
+.topic-form .topic-form__input {
+  color: #B3ABA9;
+}
+
+.topic-form .tt-dropdown-button {
+  color: #B3ABA9;
+}
+
+.topic-form .tt-dropdown-menu {
+  background: #333333;
+}
+
+.topic-form .tt-dropdown-menu a {
+  color: #B3ABA9;
+}
+
+.topic-form .topic-form__tab-list .topic-form__tab a:hover {
+  color: #B3ABA9;
+}
+
+
+.topic-form .topic-form__tab-list .topic-form__tab.topic-form__tab--current a {
+  color: #FF6240;
+}
+
+.topic-form .topic-form__member-wrap {
+  color: #B3ABA9;
 }
