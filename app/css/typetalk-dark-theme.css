@@ -24,12 +24,25 @@ body {
   background: #333333;
 }
 
+.message__post .message__option .message__icon--like:hover {
+  background: #B3ABA9;
+}
+
+.message__post .message__option .message__icon--like.message__icon--like-count:hover {
+  background: #333333;
+  color: #333333;
+}
+
 .message__post .message__option .message__icon--more {
   background: #333333;
 }
 
 .message__post .message__wrap {
   border-color: #B3ABA9;
+}
+
+.message__post .message__option .message__like-users:before {
+  background: #333333;
 }
 
 .message__post .message__option .message__like-users .message__like-users-inner {
