@@ -245,3 +245,28 @@ body {
 .topic-form .topic-form__member-wrap {
   color: #B3ABA9;
 }
+
+.topic-form .topic-form__tab-contents.topic-form__tab-contents--integrations .topic-form__table--auto {
+  color: #B3ABA9;
+}
+
+.setting {
+  color: #B3ABA9;
+}
+
+.setting .setting__inner .setting__add-table .setting__check .setting__check-label:before {
+  border-color: #B3ABA9;
+}
+
+.setting .setting__inner .setting__add-table .setting__check .setting__check-label:after {
+  border-color: #B3ABA9;
+}
+
+.setting .setting__integration .setting__integration-message {
+  background: #333333;
+  color: #B3ABA9;
+}
+
+.setting .setting__integration .setting__integration-message:after {
+  border-right-color: #333333;
+}
