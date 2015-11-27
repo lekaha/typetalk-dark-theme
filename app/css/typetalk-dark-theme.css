@@ -65,6 +65,10 @@ body {
   background: #333333;
 }
 
+.message__post .message__talks .message__talk .message__talk-wrap {
+  background: #B3ABA9;
+}
+
 .message__action {
   background: #202020 !important;
 }
