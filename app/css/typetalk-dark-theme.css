@@ -194,11 +194,21 @@ body {
 }
 
 .notification-content .notification-content__list .notification-content__list-item {
+  color: #B3ABA9;
   background: #202020;
 }
 
-.notification-content .notification-content__list .notification-content__list-item .notification-content__txt {
-  color: #B3ABA9;
+.notification-content .notification-content__list .notification-content__list-item:hover {
+  background: #B3ABA9;
+  color: #333333;
+}
+
+.notification-content .notification-content__list .notification-content__list-item .notification-content__list-item-bottom .notification-content__time {
+  color: inherit;
+}
+
+.notification-content .notification-content__list .notification-content__list-item .notification-content__list-item-bottom .notification-content__notice {
+  color: inherit;
 }
 
 .announce-content .announce-content__list .announce-content__list-item {
