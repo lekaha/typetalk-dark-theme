@@ -231,6 +231,27 @@ body {
   color: #333333;
 }
 
+.profile-content .profile-content__list .profile-content__list-item .profile-content__list-wrap.profile-content__list-wrap--active {
+  color: #ECE5E4;
+}
+
+.profile-content .profile-content__list .profile-content__list-select a {
+  color: #B3ABA9;
+}
+
+.profile-content .profile-content__list .profile-content__list-select a:hover {
+  color: #333333;
+}
+
+.profile-content .profile-content__list .profile-content__list-select.profile-content__list-select--current {
+  background: #333333;
+}
+
+.profile-content .profile-content__list .profile-content__list-select.profile-content__list-select--current .profile-content__list-select-wrap:hover {
+  color: #B3ABA9;
+  background: #333333;
+}
+
 .topic-form .topic-form__input {
   color: #B3ABA9;
 }
