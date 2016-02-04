@@ -292,14 +292,27 @@ body {
   color: #B3ABA9;
 }
 
-.setting .setting__inner .setting__add-table .setting__check .setting__check-label:before {
+.setting .setting__table .setting__select {
+  color: #B3ABA9;
+}
+
+.setting .setting__table .setting__check {
+  color: #B3ABA9;
+}
+
+.setting .setting__check .setting__check-label:before {
   border-color: #B3ABA9;
 }
 
-.setting .setting__inner .setting__add-table .setting__check .setting__check-label:after {
+.setting .setting__check .setting__check-label:after {
   border-color: #B3ABA9;
 }
 
+.setting.application .setting__application .setting__application-name .setting__application-name--select {
+  color: #B3ABA9;
+}
+
+/* The following is integration page. */
 .setting .setting__integration .setting__integration-message {
   background: #333333;
   color: #B3ABA9;
