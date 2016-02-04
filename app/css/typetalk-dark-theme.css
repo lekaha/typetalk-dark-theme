@@ -268,13 +268,16 @@ body {
   color: #B3ABA9;
 }
 
-.topic-form .topic-form__tab-list .topic-form__tab a:hover {
+.topic-form .topic-form__team-row td {
   color: #B3ABA9;
 }
 
+.topic-form .setting-tab-wrap .setting-tab__item .setting-tab__link.is_selected {
+  color: #B3ABA9;
+}
 
-.topic-form .topic-form__tab-list .topic-form__tab.topic-form__tab--current a {
-  color: #FF6240;
+.topic-form .topic-form__tab-contents.topic-form__tab-contents--members .topic-form__table ul li {
+  color: #B3ABA9;
 }
 
 .topic-form .topic-form__member-wrap {
