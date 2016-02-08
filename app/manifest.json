@@ -8,29 +8,35 @@
     "128": "images/icon-128.png"
   },
   "default_locale": "en",
-  /*"background": {
+  "background": {
     "scripts": [
-      "scripts/chromereload.js",
+      /*"scripts/chromereload.js",*/
       "scripts/background.js"
     ]
-  },*/
+  },
   "permissions": [
     "tabs",
-    "https://typetalk.in/*"
+    "https://typetalk.in/*",
+    "declarativeContent"
   ],
-  "content_scripts": [
-    {
-      "matches": [
-        "https://typetalk.in/*"
-      ],
-      /*"js": [
-        "scripts/contentscript.js"
-      ],*/
-      "css": [
-        "css/typetalk-dark-theme.css"
-      ],
-      "run_at": "document_end",
-      "all_frames": false
-    }
-  ]
+  // "content_scripts": [
+  //   {
+  //     "matches": [
+  //       "https://typetalk.in/*"
+  //     ],
+  //     // "js": [
+  //     //   "scripts/contentscript.js"
+  //     // ],
+  //     "css": [
+  //       "css/typetalk-dark-theme.css"
+  //     ],
+  //     "run_at": "document_end",
+  //     "all_frames": false
+  //   }
+  // ],
+  "page_action": 
+  {
+    "default_icon" : "images/icon-19.png",
+    "default_title": "Typetalk Dark"
+  }
 }
